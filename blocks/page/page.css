@@ -1,8 +1,10 @@
 .page {
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   background-color: #2A2C2F;
   font-family: 'Inter';
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
 }
