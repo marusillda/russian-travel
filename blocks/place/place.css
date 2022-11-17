@@ -1,0 +1,28 @@
+.place {
+  display: grid;
+  grid-template-columns: min-content minmax(min-content, 1fr);
+  row-gap: 48px;
+  column-gap: 40px;
+  padding-top: 92px;
+}
+
+@media all and (max-width: 1279px) {
+  .place {
+    column-gap: 32px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .place{
+    column-gap: 28px;
+    padding: 88px 24px 0 24px;
+  }
+}
+
+@media all and (max-width: 767.9px) {
+  .place {
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding: 88px 0 0 0;
+  }
+}

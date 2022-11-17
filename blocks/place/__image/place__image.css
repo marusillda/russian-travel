@@ -1,0 +1,21 @@
+.place__image {
+  max-width: 460px;
+}
+
+@media all and (max-width: 1279px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .place__image {
+    max-width: 340px;
+  }
+}
+
+@media all and (max-width: 767.9px) {
+  .place__image {
+    width: 100%;
+  }
+}

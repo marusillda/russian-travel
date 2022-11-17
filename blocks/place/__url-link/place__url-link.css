@@ -1,0 +1,9 @@
+.place__url-link {
+  align-self: flex-end;
+}
+
+@media all and (max-width: 767.9px) {
+  .place__url-link {
+    padding: 0 16px;
+  }
+}
