@@ -1,23 +1,17 @@
 .one-column {
   display: block;
   margin: auto;
-  max-width: 984px;
+  width: calc(100% - 296px);
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+@media screen and (max-width: 1279px) {
   .one-column {
-    max-width: 928px;
+  width: calc(100% - 96px);
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .one-column {
-    max-width: 100%;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .one-column {
-    max-width: 100%;
+  width: 100%;
   }
 }

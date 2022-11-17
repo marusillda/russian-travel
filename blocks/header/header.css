@@ -6,13 +6,13 @@
   padding-top: 28px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .header {
     width: calc(100% - 48px);
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.9px) {
   .header {
     width: calc(100% - 32px);
     padding-top: 16px;
