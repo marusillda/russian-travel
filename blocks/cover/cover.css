@@ -1,7 +1,9 @@
 .cover {
+  display: flex;
+  align-items: stretch;
   margin: 92px auto 0;
   max-width: 1184px;
-  max-height: 740px;
+  min-height: 740px;
   width: 100%;
   background-image: url("../../images/cover-trains.jpg");
   background-size: cover;
@@ -30,20 +32,20 @@
 
 @media all and (max-width: 1279px) {
   .cover {
-    max-height: 640px;
+    min-height: 640px;
   }
 }
 
 @media all and (max-width: 1023px) {
   .cover {
-    max-height: 480px;
+    min-height: 480px;
     margin-top: 90px;
   }
 }
 
 @media all and (max-width: 767.9px) {
   .cover {
-    max-height: 200px;
+    min-height: 200px;
     margin-top: 66px;
   }
 }
