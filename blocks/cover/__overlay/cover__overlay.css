@@ -6,12 +6,6 @@
   align-items: center;
   width: 100%;
   padding: 245px 0 245px 0;
-  position: relative;
-}
-
-.cover__overlay:hover {
-  background-color: rgba(42, 44, 47, .8);
-  transition: .8s;
 }
 
 @media all and (max-width: 1279px) {

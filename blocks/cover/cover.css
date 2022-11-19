@@ -8,6 +8,7 @@
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  z-index: 1;
 }
 
 .cover::before {
@@ -17,7 +18,14 @@
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(42, 44, 47, 0.3);
+  background-color: rgb(42, 44, 47);
+  opacity: .3;
+  transition: opacity .7s ease;
+  z-index: -1;
+}
+
+.cover:hover::before {
+	opacity: 0.8;
 }
 
 @media all and (max-width: 1279px) {
