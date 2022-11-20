@@ -14,8 +14,16 @@
   }
 }
 
-@media all and (max-width: 767.9px) {
+@media all and (max-width: 768px) {
+  .place__image {
+    padding-left: 16px;
+  }
+}
+
+@media all and (max-width: 356px) {
   .place__image {
     width: 100%;
+    padding-left: 0;
+    max-width: unset;
   }
 }
