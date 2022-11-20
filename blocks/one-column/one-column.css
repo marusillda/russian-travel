@@ -6,12 +6,12 @@
 
 @media screen and (max-width: 1279px) {
   .one-column {
-  width: calc(100% - 96px);
+    width: calc(100% - 96px);
   }
 }
 
 @media screen and (max-width: 1023px) {
   .one-column {
-  width: 100%;
+    width: 100%;
   }
 }
