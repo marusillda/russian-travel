@@ -20,9 +20,6 @@
     column-gap: 28px;
     padding: 0 24px 0 24px;
   }
-}
-
-@media all and (max-width: 1023px) {
   .place+.place {
     padding-top: 73px;
   }
@@ -34,9 +31,6 @@
     gap: 32px;
     padding: 0;
   }
-}
-
-@media all and (max-width: 767.9px) {
   .place+.place {
     padding-top: 50px;
   }

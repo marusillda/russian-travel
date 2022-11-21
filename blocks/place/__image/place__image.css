@@ -14,7 +14,7 @@
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767.5px) {
   .place__image {
     padding-left: 16px;
   }

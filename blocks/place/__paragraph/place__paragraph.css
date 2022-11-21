@@ -1,7 +1,7 @@
 .place__paragraph {
   margin: 0;
   color: white;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.611;
@@ -13,15 +13,12 @@
 }
 
 @media all and (max-width: 1023px) {
-  .place__paragraph+.place__paragraph {
-    padding-top: 25px;
-  }
-}
-
-@media all and (max-width: 1023px) {
   .place__paragraph {
     font-size: 16px;
     line-height: 1.625;
     max-width: unset;
+  }
+  .place__paragraph+.place__paragraph {
+    padding-top: 25px;
   }
 }

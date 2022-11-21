@@ -20,6 +20,7 @@
     width: calc(100% - 48px);
     grid-template-columns: repeat(auto-fit, 352px);
     gap: 16px;
+    padding-top: 88px;
   }
 }
 
@@ -28,6 +29,7 @@
     width: calc(100% - 32px);
     grid-template-columns: 1fr;
     gap: 12px;
-    padding-top: 88px;
+    padding-top: 64px;
+
   }
 }
